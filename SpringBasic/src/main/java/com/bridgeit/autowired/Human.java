@@ -13,7 +13,7 @@ public Human(Heart heart) {
 	this.heart = heart;
 }
 @Autowired
-@Qualifier("humanheart")
+@Qualifier("octpousheart")
 public void setHeart(Heart heart) {
 	this.heart = heart;
 }
@@ -23,7 +23,7 @@ void pumping() {
 		System.out.println("dead");
 	}else {
 	heart.pump();
-	System.out.println("name of the animal is"+heart.getHumanname());
+	System.out.println("name of the animal is  "+heart.getHumanname());
 	}
 	
 }

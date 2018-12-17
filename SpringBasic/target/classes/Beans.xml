@@ -32,15 +32,15 @@
 		</property>
 	</bean>
 	<context:annotation-config/>	
-	<bean id="humanheart" class="com.bridgeit.autowired.Heart">
+	<bean id="hearthuman" class="com.bridgeit.autowired.Heart">
 	  <property name="humanname" value="sowndar"/>
 	 
 	</bean>
 	
-	<bean id="octpousheartobject" class="com.bridgeit.autowired.Heart">
-<!-- <property name="humanname" value="devil"/>
- -->	
-	</bean>
+	<bean id="octpousheart" class="com.bridgeit.autowired.Heart">
+<property name="humanname" value="devil"/>
+	
+	</bean> 
 	
 	
 <!-- 		<bean id="human" class="com.bridgeit.autowired.Human" autowire="byName">
@@ -51,14 +51,6 @@
 	
 	</property> -->
 	</bean>
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

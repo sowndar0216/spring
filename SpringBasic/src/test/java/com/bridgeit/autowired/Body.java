@@ -11,8 +11,8 @@ public static void main(String[] args) {
 
 	ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
 	System.out.println("loaded");
-/*	Human human=context.getBean("human",Human.class);
+Human human=context.getBean("human",Human.class);
 	human.pumping();
-	*/
+	
 }  
 }

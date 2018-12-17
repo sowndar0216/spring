@@ -1,17 +1,20 @@
 package com.bridgeit.autowired;
 
 public class Heart {
-	public String humanname;
+	 String humanname;
 	
+
 public String getHumanname() {
 		return humanname;
 	}
 
-public void setHumanheartobject(String humanheartobject) {
-		this.humanname = humanheartobject;
+
+	public void setHumanname(String humanname) {
+		this.humanname = humanname;
 	}
 
+
 void pump() {
-	System.out.println("heart is pumping");
+	System.out.println("heart is pumping " +humanname);
 }
 }
