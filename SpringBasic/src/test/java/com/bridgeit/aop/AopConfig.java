@@ -4,6 +4,9 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.bridgeit.aop")
-public class AopConfig {
 
+public class AopConfig {
+/*
+ * 
+ */
 }

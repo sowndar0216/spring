@@ -10,6 +10,8 @@ public class Aop {
 	ApplicationContext context=new AnnotationConfigApplicationContext(AopConfig.class);
 	DemoAop ob=context.getBean(DemoAop.class);
 	ob.show();
-	
+/*
+ * 	
+ */
 }
 }
