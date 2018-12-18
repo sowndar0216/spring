@@ -18,14 +18,14 @@ public static void main(String[] args) {
 	ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
 
 	//set with setter 
-	/*Student student1=context.getBean("student1",Student.class);
+	Student student1=context.getBean("student3",Student.class);
 	
    student1.displayInfo();
 	
-   */
+   
 	//set with constuctor
-   Student student2=context.getBean("student2",Student.class);
-   student2.displayInfo();
+  /* Student student2=context.getBean("student2",Student.class);
+   student2.displayInfo();*/
    
 	
 
