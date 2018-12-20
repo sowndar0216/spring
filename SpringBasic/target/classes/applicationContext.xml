@@ -16,7 +16,7 @@
   <aop:aspect id="myaspect" ref="trackAspect" >  
      <!-- @Before -->  
      <aop:pointcut id="pointCutBefore"   expression="execution(* com.bridgeit.aop.Operation.*(..))" />  
-     <aop:before method="myadvice" pointcut-ref="pointCutBefore" />  
+     <aop:after method="myadvice" pointcut-ref="pointCutBefore" />  
   </aop:aspect>  
 </aop:config>  
       
