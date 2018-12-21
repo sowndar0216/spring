@@ -1,9 +1,9 @@
 <html>
 <body>hello
-<form action="add	"></form>
+<form >
 name:<input type="text">
 <br></br>
 email:<input type="text"><br></br>
-<input type="submit">
+<a href="add" >submit</a></form>
 </body>
 </html>

@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class AddController {
 
-	@RequestMapping(value="/add")
-	void add() {
-	System.out.println("hello sowndar");
+	@RequestMapping("/add")
+	String reDirect() {
+	return "wellcome";
 }
 }
