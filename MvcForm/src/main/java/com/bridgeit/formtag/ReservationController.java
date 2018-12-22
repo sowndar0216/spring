@@ -23,4 +23,8 @@ public class ReservationController {
     {  
         return "confirmation-page";  
     }  
+    @RequestMapping("/checkout")
+    public String logIn() {
+    	return "index";
+    }
 }

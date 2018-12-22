@@ -6,7 +6,16 @@ public class Reservation {
     private String lastName;  
     private String Gender;
       
-   
+    private String[] Food;  
+	public String[] getFood() {
+		return Food;
+	}
+	public void setFood(String[] food) {
+		Food = food;
+		for (int i = 0; i < food.length; i++) {
+			System.out.println(food[i]);
+		}
+	}
 	public Reservation()  
     {         
     }  
